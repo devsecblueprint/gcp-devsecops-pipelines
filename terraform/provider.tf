@@ -3,7 +3,7 @@ terraform {
     organization = "DSB"
 
     workspaces {
-      name = "dsb-gcp-devsecops-infra"
+      name = "gcp-devsecops-pipelines"
     }
   }
 }
