@@ -43,7 +43,7 @@ resource "google_secret_manager_secret_version" "snyk_token_version" {
 module "gcp_python_fastapi_pipeline" {
   source = "./modules/pipelines"
 
-  project_id = var.project_id
+  project_id = var.PROJECT_ID
   region     = var.region
 
   cloudbuild_trigger_name = "gcp-python-fastapi"

@@ -1,9 +1,3 @@
-variable "project_id" {
-  type        = string
-  description = "Project ID"
-  default     = "dsb-innovation-hub"
-}
-
 variable "region" {
   type        = string
   description = "Region"
@@ -12,3 +6,4 @@ variable "region" {
 
 # Terraform Environment Variables
 variable "SNYK_TOKEN" {}
+variable "PROJECT_ID" {}
