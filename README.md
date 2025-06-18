@@ -6,7 +6,7 @@
 ![GitHub Forks](https://img.shields.io/github/forks/devsecblueprint/gcp-devsecops-pipeline?logo=github&style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/devsecblueprint/gcp-devsecops-pipeline?logo=github&style=for-the-badge)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/devsecblueprint/gcp-devsecops-pipeline?logo=github&style=for-the-badge)
-![CI Status](https://github.com/devsecblueprint/gcp-devsecops-pipeline/actions/workflows/default.yml/badge.svg?style=for-the-badge)
+![CI Status](https://img.shields.io/github/actions/workflow/status/devsecblueprint/gcp-devsecops-pipeline/default.yml?style=for-the-badge)
 
 This project provides an opinionated DevSecOps pipeline for Google Cloud Platform (GCP), built with Terraform and GitHub Actions. It integrates security best practices into the software development lifecycle to ensure secure, automated infrastructure deployments.
 
