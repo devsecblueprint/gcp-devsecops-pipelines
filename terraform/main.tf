@@ -1,6 +1,6 @@
 # Build Buckets
 resource "google_storage_bucket" "default" {
-  name          = "dsb-devsecops-lab-bucket"
+  name          = "${var.PROJECT_ID}-builds"
   location      = var.region
   force_destroy = true
 
