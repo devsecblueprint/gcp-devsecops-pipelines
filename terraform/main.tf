@@ -1,6 +1,6 @@
 # Build Buckets
 resource "google_storage_bucket" "default" {
-  name          = "${var.PROJECT_ID}-builds"
+  name          = "${var.PROJECT_ID}-cb-builds"
   location      = var.region
   force_destroy = true
 
