@@ -43,7 +43,7 @@ resource "google_cloudbuild_trigger" "build_trigger" {
   location        = var.region
 
   github {
-    owner = "DSB"
+    owner = "devsecblueprint"
     name  = var.github_repo_name
     push {
       branch = "^main$"
